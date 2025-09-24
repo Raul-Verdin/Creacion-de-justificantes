@@ -1,0 +1,14 @@
+{
+  "name": "creacion-de-justificantes",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "concurrently \"npm run server\" \"npm run client\"",
+    "server": "cd backend && node index.js",
+    "client": "cd frontend-justificantes && npm start"
+    
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  }
+}
