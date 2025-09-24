@@ -51,8 +51,21 @@ Este es un sistema web para registrar y consultar justificantes de ausencia, des
 
 ### 1. Clonar el repositorio
 
-    git clone https://tu-repo-url.git
-    cd Creacion-de-justificantes-02
+    git clone https://github.com/Raul-Verdin/Creacion-de-justificantes.git
+    cd Creacion-de-justificantes
+
+#### Comandos útiles
+Ver ramas
+    git branch
+
+Cambiar de rama
+    git checkout frontend
+
+Subir cambios
+    git add .
+    git commit -m "Descripción del cambio"
+    git push
+
 
 ### 2. Configurar variables de entorno
     🖥️ Backend - backend
