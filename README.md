@@ -67,7 +67,7 @@ Subir cambios
         DB_HOST=localhost
         DB_USER=TU_USUARIO
         DB_PASSWORD=TU_PASSWORD
-        DB_NAME=justificantes_db
+        DB_NAME=TU_BASE_DATOS
 
         Crear tabla (MySQL):
             CREATE TABLE solicitudes (
@@ -80,7 +80,7 @@ Subir cambios
             );
 
     🌐 Frontend - (frontend-justificantes/.env)
-        REACT_APP_API_URL=http://localhost:4000
+        REACT_APP_API_URL=https://creacion-de-justificantes-backend.vercel.app
 
 ### 3. Instalar dependencias
     Desde la raíz del proyecto:
@@ -102,9 +102,3 @@ Subir cambios
     Esto ejecutará:
         Backend en http://localhost:4000
         Frontend en http://localhost:3000
-
-## Funcionalidades
-    Registrar justificantes (nombre, grupo, motivo, fecha de ausencia)
-    Ver lista de justificantes ordenada por fecha
-    Buscar por nombre, grupo, motivo o ID en tiempo real
-    Comunicación entre frontend y backend mediante Axios
