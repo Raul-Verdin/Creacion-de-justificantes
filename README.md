@@ -4,46 +4,6 @@ Este es un sistema web para registrar y consultar justificantes de ausencia, des
 
 ---
 
-## ⚙️ Tecnologías utilizadas
-
-### 🖥️ Frontend
-- React
-- Axios
-- JavaScript (ES6)
-- HTML5 / CSS3
-
-### 🔧 Backend
-- Node.js
-- Express
-- MySQL
-- CORS
-- dotenv
-
----
-
-## 📁 Estructura del Proyecto
-
-Creacion-de-justificantes/
-│
-├── backend/            # Servidor Express + API REST
-│ ├── index.js          # Punto de entrada
-│ ├── db.js             # Conexión a MySQL
-│ └── routes/
-│ └── solicitudes.js    # Endpoints (GET, POST, GET/:id)
-│
-├── frontend-justificantes/     # Aplicación React
-│ ├── src/
-│ │ ├── components/
-│ │ │ ├── Formulario.js         # Registro de solicitudes
-│ │ │ └── ListaSolicitudes.js   # Lista + Búsqueda
-│ │ └── App.js
-│ └── .env                      # URL del backend
-│
-├── package.json    # Script raíz para correr ambos
-└── README.md       # Este archivo
-
----
-
 ## 🛠️ Configuración del Proyecto
 
 ### 1. Clonar el repositorio
